@@ -39,7 +39,11 @@ public class TeoriaString {
         }
         else if (ciclo.equalsIgnoreCase ("DawBio"))
         {
-            System.out.println("Benvingut al Proven a Desenvolupament d'Aplicacions Multiplataforma");
+            System.out.println("Benvingut al Proven a BioInformàtica");
+        }
+        else
+        {
+            System.out.println("No estas al proven");
         }
     }
     
