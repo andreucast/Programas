@@ -20,7 +20,7 @@ public class Ex4ProjecteProvenShareRandom {
         int numRandom;
         
         numRandom = ran.nextInt(1, 7);
-        System.out.println("He elegido el numero " + numRandom);
+        System.out.println("Ha salido el numero " + numRandom);
         
         if (numRandom == 6)
         {
