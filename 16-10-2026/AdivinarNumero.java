@@ -34,7 +34,7 @@ public class ExAdivinarNumero {
             if (numElegido > numRandom)
             {
                 
-                if ((numElegido - numRandom) < 10 || (numRandom - numElegido) < 10)
+                if ((numElegido - numRandom) < 10)
                 {
                     System.out.println("Estas cerca!");
                 }
@@ -47,7 +47,7 @@ public class ExAdivinarNumero {
             }
             else
             {
-                if ((numElegido - numRandom) < 10 || (numRandom - numElegido) < 10)
+                if ((numRandom - numElegido) < 10)
                 {
                     System.out.println("Estas cerca!");
                 }
@@ -57,12 +57,10 @@ public class ExAdivinarNumero {
                     System.out.println("He elegido el " + numRandom);
                 }
               
-            }
-            
+            }        
+            contador++;
             System.out.println("Que numero crees que sacare?");
             numElegido = sc.nextInt();
-                    
-            contador++;
         }
         if (numElegido == numRandom)
         {
@@ -71,6 +69,7 @@ public class ExAdivinarNumero {
         }
         else
         {
+            System.out.println("He elegido el " + numRandom);
             System.out.println("Te has pasado de intentos!");
         }
            
