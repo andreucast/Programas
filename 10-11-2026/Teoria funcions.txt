@@ -1,0 +1,15 @@
+1. Funciones de entrada de datos:
+- Piden datos
+- Validan datos
+
+2. Funciones de calculos
+- No tienen souts ni scanner
+- Condicionales
+- Return
+- Valor de entrada
+
+3. Funciones de salida
+- Void
+- Sout
+- Condicionales
+- Valores de entrada
